@@ -37,7 +37,7 @@ const Footer = () => {
   };
 
   const socials = [
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com/Elvionai" },
+    { icon: Twitter, label: "Twitter", href: "https://twitter.com/TheElvionai" },
     { icon: MessageCircle, label: "Discord", href: "#" },
     { icon: Github, label: "GitHub", href: "#" },
     { icon: Mail, label: "Email", href: "mailto:hello@elvionai.com" },
@@ -164,5 +164,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
