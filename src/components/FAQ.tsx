@@ -23,10 +23,6 @@ const FAQ = () => {
       question: "Is Elvionai affiliated with OpenAI?",
       answer: "No, Elvionai is an independent community AI project. We use Sora-style generation technology but are not affiliated with or endorsed by OpenAI.",
     },
-    {
-      question: "What blockchain does Elvionai use?",
-      answer: "We're currently evaluating Solana, Base, and Ethereum for NFT minting. The final chain will be announced with our Mintable Collectibles launch in Q3 2025.",
-    },
   ];
 
   return (
@@ -78,3 +74,4 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
