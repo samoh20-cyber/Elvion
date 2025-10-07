@@ -55,7 +55,7 @@ const Hero = () => {
               className="bg-primary text-primary-foreground hover:bg-primary/90 glow-primary text-lg px-8 py-6 h-auto"
               onClick={() =>
                 window.open(
-                  "https://twitter.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20a%20cyberpunk%20cat%20in%20neon%20rain%20%23Elvionai",
+                  "https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
                   "_blank"
                 )
               }
@@ -99,5 +99,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
