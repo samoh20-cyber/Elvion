@@ -64,7 +64,7 @@ const IndexNavbar = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://twitter.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
+                  "https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
                   "_blank"
                 )
               }
@@ -113,7 +113,7 @@ const IndexNavbar = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://twitter.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
+                  "https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
                   "_blank"
                 )
               }
@@ -129,3 +129,4 @@ const IndexNavbar = () => {
 };
 
 export default IndexNavbar;
+
