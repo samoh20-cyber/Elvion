@@ -166,7 +166,7 @@ const Gallery = () => {
             className="bg-primary text-primary-foreground hover:bg-primary/90 glow-primary"
             onClick={() =>
               window.open(
-                "https://twitter.com/intent/tweet?text=@TheElvionAI%20",
+                "https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20",
                 "_blank"
               )
             }
@@ -238,3 +238,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
