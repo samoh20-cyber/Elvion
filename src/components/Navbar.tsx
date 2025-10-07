@@ -52,7 +52,7 @@ const Navbar = () => {
                 </a> : <a key={link.label} href={link.href} className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                   {link.label}
                 </a>)}
-            <Button onClick={() => window.open("https://twitter.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20", "_blank")} className="bg-primary text-primary-foreground hover:bg-primary/90 glow-primary">
+            <Button onClick={() => window.open("https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20", "_blank")} className="bg-primary text-primary-foreground hover:bg-primary/90 glow-primary">
               Tag us on X
             </Button>
             
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </a> : <a key={link.label} href={link.href} className="block w-full text-left text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>
                   {link.label}
                 </a>)}
-            <Button onClick={() => window.open("https://twitter.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20", "_blank")} className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button onClick={() => window.open("https://x.com/intent/tweet?text=@TheElvionAI%20make%20me%20a%20video%20of%20", "_blank")} className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
               Tag us on X
             </Button>
             <Button variant="outline" className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground">
@@ -81,4 +81,5 @@ const Navbar = () => {
       </div>
     </nav>;
 };
+
 export default Navbar;
